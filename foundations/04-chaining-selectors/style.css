@@ -1,0 +1,23 @@
+/* TOP PART */
+
+.column {
+  display: inline-block;
+}
+
+.avatar.proportioned {
+  height: auto;
+  width: 300px;
+}
+
+.avatar.distorted {
+  height: 400px;
+  width: 200px;
+}
+
+/* BOTTOM PART*/
+
+/*
+
+nothing to explicitly modify here since the images just need to be displayed in an inline-block way with its full size
+
+*/
