@@ -1,5 +1,6 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   min-height: 100vh;
 }
@@ -23,7 +24,7 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
 }
 
@@ -32,6 +33,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -84,4 +86,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/*ADDED BY ME (was missing)*/
+
+.top,
+.middle,
+.bottom {
+  display: flex;
 }
